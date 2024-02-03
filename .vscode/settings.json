@@ -1,0 +1,73 @@
+{
+    "name": "Custom Theme",
+    "colors": {
+        // Define general colors (e.g., editor background, foreground) here if necessary
+    },
+    "tokenColors": [
+        {
+            "name": "Strings",
+            "scope": ["string"],
+            "settings": {
+                "foreground": "#808080" // Gray
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": ["constant.numeric"],
+            "settings": {
+                "foreground": "#FFA500" // Orange
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": ["comment"],
+            "settings": {
+                "foreground": "#006400", // Darker green
+                "fontStyle": "italic" // Italic
+            }
+        },
+        {
+            "name": "Keywords (function, const, let)",
+            "scope": ["storage.type"],
+            "settings": {
+                "foreground": "#00008B" // Darker blue
+            }
+        },
+        {
+            "name": "Variable and Errors",
+            "scope": ["variable", "invalid.error"],
+            "settings": {
+                "foreground": "#FF0000" // Red
+            }
+        },
+        {
+            "name": "Function Names",
+            "scope": ["entity.name.function"],
+            "settings": {
+                "foreground": "#800080" // Purple
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": ["keyword"],
+            "settings": {
+                "foreground": "#FFC0CB" // Pink
+            }
+        },
+        {
+            "name": "Properties",
+            "scope": ["variable.property"],
+            "settings": {
+                "foreground": "#ADD8E6" // Lighter blue
+            }
+        },
+        {
+            "name": "Types",
+            "scope": ["entity.name.type"],
+            "settings": {
+                "foreground": "#00FF00" // Brighter green
+            }
+        }
+        // Additional customizations can go here
+    ]
+}

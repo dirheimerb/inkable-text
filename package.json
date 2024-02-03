@@ -1,0 +1,103 @@
+{
+    "name": "inkable-text",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.js"
+        },
+        "./dist": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.js"
+        }
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "serve": "vite preview",
+        "lint": "eslint src/**/*.{ts,tsx}",
+        "format": "prettier --write .",
+        "preview": "vite preview"
+    },
+    "keywords": [
+        "inkable",
+        "text",
+        "editor",
+        "rich",
+        "markdown",
+        "react",
+        "supabase",
+        "yjs",
+        "lexical"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dirheimerb/inkable-text.git"
+    },
+    "author": "Bradley Dirheimer",
+    "license": "MIT",
+    "dependencies": {
+        "@excalidraw/excalidraw": "^0.17.2",
+        "@lexical/clipboard": "0.13.1",
+        "@lexical/code": "0.13.1",
+        "@lexical/file": "0.13.1",
+        "@lexical/hashtag": "0.13.1",
+        "@lexical/headless": "^0.13.1",
+        "@lexical/link": "0.13.1",
+        "@lexical/list": "0.13.1",
+        "@lexical/mark": "0.13.1",
+        "@lexical/markdown": "^0.13.1",
+        "@lexical/overflow": "0.13.1",
+        "@lexical/plain-text": "0.13.1",
+        "@lexical/react": "^0.13.1",
+        "@lexical/rich-text": "0.13.1",
+        "@lexical/selection": "0.13.1",
+        "@lexical/table": "0.13.1",
+        "@lexical/text": "^0.13.1",
+        "@lexical/utils": "0.13.1",
+        "@lexical/yjs": "^0.13.1",
+        "@supabase/supabase-js": "^2.39.3",
+        "katex": "^0.16.9",
+        "lexical": "^0.13.1",
+        "prettier": "^3.2.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-error-boundary": "^4.0.12",
+        "y-websocket": "^1.5.3",
+        "yjs": "^13.6.11"
+    },
+    "devDependencies": {
+        "@types/katex": "^0.16.7",
+        "@types/lodash": "^4.14.202",
+        "@types/lodash-es": "^4.17.12",
+        "@types/react": "^18.2.51",
+        "@types/react-dom": "^18.2.18",
+        "@types/uuid": "^9.0.8",
+        "@typescript-eslint/eslint-plugin": "^6.20.0",
+        "@typescript-eslint/parser": "^6.20.0",
+        "@vitejs/plugin-react": "^4.2.1",
+        "clsx": "^2.1.0",
+        "eslint": "^8.56.0",
+        "eslint-plugin-react": "^7.33.2",
+        "lodash-es": "^4.17.21",
+        "prettier": "^3.2.4",
+        "prettier-plugin-tailwindcss": "^0.5.11",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3",
+        "uuid": "^9.0.1",
+        "vite": "^5.0.12"
+    },
+    "prettier": {
+        "semi": true,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "printWidth": 80,
+        "tabWidth": 4,
+        "useTabs": false
+    }
+}

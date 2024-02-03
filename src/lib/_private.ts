@@ -1,0 +1,3 @@
+export const SUPAURL = 'https://kesjtpesrpqzggzndisj.supabase.co';
+export const SUPAANONKEY =
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtlc2p0cGVzcnBxemdnem5kaXNqIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM2NjIwMzAsImV4cCI6MTk5OTIzODAzMH0.-KJoIZ0AHAv72wx60HcMbkbikouArD2LccFwyFBahz4';
