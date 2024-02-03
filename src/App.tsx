@@ -194,19 +194,7 @@ function onError(error: Error) {
 function prepopulatedRichText() {
     const root = $getRoot();
     if (root.getFirstChild() === null) {
-        const heading = $createHeadingNode('h1');
-        heading.append($createTextNode('Welcome to the playground'));
-        root.append(heading);
-        const quote = $createQuoteNode();
-        quote.append(
-            $createTextNode(
-                `In case you were wondering what the black box at the bottom is - it's the debug view, showing the current state of the editor. ` +
-                    `You can disable it by pressing on the settings control in the bottom-left of your screen and toggling the debug view setting.`,
-            ),
-        );
-        root.append(quote);
         const paragraph = $createParagraphNode();
-
         root.append(paragraph);
     }
 }
