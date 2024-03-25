@@ -62,7 +62,7 @@
         "@lexical/utils": "0.13.1",
         "@lexical/yjs": "^0.13.1",
         "@supabase/supabase-js": "^2.39.3",
-        "katex": "^0.16.9",
+        "katex": "^0.16.10",
         "lexical": "^0.13.1",
         "prettier": "^3.2.4",
         "react": "^18.2.0",
